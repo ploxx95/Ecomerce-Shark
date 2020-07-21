@@ -44,7 +44,13 @@ header {
 }
 .bg-main {
   height: 740px;
-  background: url("img/movil-image-purple.jpg") center center;
+  background: linear-gradient(
+      0deg,
+      rgba(2, 0, 45, 0.6612529002320185) 0%,
+      rgba(0, 0, 46, 0.47795823665893267) 19%,
+      rgba(255, 255, 255, 0) 55%
+    ),
+    url("../img/movil-image-purple.jpg") center center;
   background-size: auto 745px, cover;
   color: white;
   background-repeat: no-repeat;
