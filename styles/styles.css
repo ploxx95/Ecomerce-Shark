@@ -44,7 +44,7 @@ header {
 }
 .bg-main {
   height: 740px;
-  background: url("/img/movil-image-purple.jpg") center center;
+  background: url("img/movil-image-purple.jpg") center center;
   background-size: auto 745px, cover;
   color: white;
   background-repeat: no-repeat;
