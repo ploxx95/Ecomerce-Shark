@@ -41,7 +41,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.bg-main {
+.bg-main.womans {
   height: 740px;
   background: linear-gradient(
       0deg,
@@ -54,6 +54,20 @@ header {
   color: white;
   background-repeat: no-repeat;
 }
+.bg-main.mans {
+  height: 740px;
+  background: linear-gradient(
+      0deg,
+      rgba(2, 0, 45, 0.6612529002320185) 0%,
+      rgba(0, 0, 46, 0.47795823665893267) 19%,
+      rgba(255, 255, 255, 0) 55%
+    ),
+    url("../img/movil-image-black-man.webp") center center;
+  background-size: auto 745px, cover;
+  color: white;
+  background-repeat: no-repeat;
+}
+
 .cta-main {
   padding-top: 35.8em;
   padding-left: 2em;
@@ -77,9 +91,15 @@ header {
   font-size: 0.8em;
   color: black;
 }
+.background-intro {
+}
 /*************Section womens releases**************/
+
+.text-releases {
+  margin-bottom: 15px;
+}
 .wrapper-releases {
-  padding: 1.1em 1em 0 1em;
+  padding: 1.1em 20px 0 20px;
   margin: 0;
 }
 .gener {
@@ -98,6 +118,103 @@ header {
   text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  margin-top: 1.26em;
+  margin: 1.26em 20em 0 0;
   display: block;
+}
+
+/********************section WOMAN IMAGES********************/
+.article-image {
+  height: 220px;
+  width: 185px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.article-new {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  border-left: 3px solid black;
+  margin-bottom: 5px;
+}
+.article-new span {
+  padding-left: 5px;
+}
+.article-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.article-color {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  font-size: 0.9em;
+}
+.article-color a {
+  text-decoration: none;
+  color: #7d7c8e;
+}
+.article-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8;
+}
+.text-bottom-releases {
+  padding-left: 5px;
+}
+.articles-gener {
+  width: 185px;
+  height: 267;
+  overflow: hidden;
+}
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+.wrapper-shop-man-woman {
+  padding: 1.1em 20px 0 20px;
+}
+
+.wrapper-shop-man-woman h1 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.wrapper-shop-man-woman button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 3em;
+  padding: 15px 30px 15px 30px;
+  background-color: black;
+  color: white;
+}
+.shop-mens {
+  height: 290px;
+  width: 380px;
+  background-image: url(../img/shop-mens.webp);
+  background-position: center top;
+  background-size: auto 450px, cover;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.shop-womens {
+  height: 290px;
+  width: 380px;
+  background-image: url(../img/shop-womens.webp);
+  background-position: center top;
+  background-size: auto 450px, cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-shop {
+  padding: 0 20px 0 20px;
 }
