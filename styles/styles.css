@@ -196,7 +196,7 @@ header {
 .shop-mens {
   height: 290px;
   width: 380px;
-  background-image: url(../img/shop-mens.webp);
+  background-image: url("../img/shop-mens.webp");
   background-position: center top;
   background-size: auto 450px, cover;
   margin-bottom: 10px;
@@ -207,7 +207,7 @@ header {
 .shop-womens {
   height: 290px;
   width: 380px;
-  background-image: url(../img/shop-womens.webp);
+  background-image: url("../img/shop-womens.webp");
   background-position: center top;
   background-size: auto 450px, cover;
   display: flex;
